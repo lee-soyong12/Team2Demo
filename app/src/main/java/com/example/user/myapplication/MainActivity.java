@@ -11,6 +11,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.content.SharedPreferences;
+import android.content.pm.ApplicationInfo;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.provider.MediaStore;
@@ -45,6 +46,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void setImageview(ImageView imageview) {
         this.imageview = imageview;
+    }
+
+    @Override
+    public ApplicationInfo getApplicationInfo() {
+        return super.getApplicationInfo();
     }
 }
 
