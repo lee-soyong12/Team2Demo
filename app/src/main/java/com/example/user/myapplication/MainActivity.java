@@ -47,11 +47,6 @@ public class MainActivity extends AppCompatActivity {
     public void setImageview(ImageView imageview) {
         this.imageview = imageview;
     }
-
-    @Override
-    public ApplicationInfo getApplicationInfo() {
-        return super.getApplicationInfo();
-    }
 }
 
 
