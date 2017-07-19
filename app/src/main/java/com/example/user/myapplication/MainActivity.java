@@ -43,11 +43,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    public boolean bindService(Intent service, ServiceConnection conn, int flags) {
-        return super.bindService(service, conn, flags);
+    public void setImageview(ImageView imageview) {
+        this.imageview = imageview;
     }
 }
+
 
 
 
