@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/star1"
+        android:icon="@drawable/starcraft"
+        android:title="starcraft"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/over1"
+        android:icon="@drawable/overwatch"
+        android:title="overwatch"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/kart1"
+        android:icon="@drawable/kart"
+        android:title="kart"
+        app:showAsAction="always" />
+</menu>
