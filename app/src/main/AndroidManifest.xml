@@ -16,21 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".kart"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".over"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".star"
-            android:screenOrientation="portrait" />
 
-        <service
-            android:name=".MyIntentService"
-            android:exported="false" />
-
-        <activity android:name=".ResultActivity"></activity>
     </application>
 
 </manifest>
