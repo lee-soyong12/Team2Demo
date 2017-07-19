@@ -9,6 +9,7 @@ import android.app.TaskStackBuilder;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.ServiceConnection;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.net.Uri;
@@ -42,8 +43,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
+    @Override
+    public boolean bindService(Intent service, ServiceConnection conn, int flags) {
+        return super.bindService(service, conn, flags);
     }
+}
 
 
 
