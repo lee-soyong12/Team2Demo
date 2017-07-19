@@ -20,7 +20,7 @@ public class star  extends AppCompatActivity {
     }
 
     public void onClick3(View view){
-        Toast.makeText(getApplicationContext(),"Back",Toast.LENGTH_SHORT).show();
+
         super.onBackPressed();
 
     }
