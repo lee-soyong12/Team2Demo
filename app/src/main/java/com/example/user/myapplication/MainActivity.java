@@ -42,10 +42,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    public boolean hasWindowFocus() {
-        return super.hasWindowFocus();
+
     }
-}
+
 
 
