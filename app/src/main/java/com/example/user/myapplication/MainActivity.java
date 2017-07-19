@@ -1,5 +1,6 @@
 package com.example.user.myapplication;
 
+import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.Notification;
@@ -15,6 +16,7 @@ import android.content.pm.ApplicationInfo;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.provider.MediaStore;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.app.NotificationCompat;
@@ -46,6 +48,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void setImageview(ImageView imageview) {
         this.imageview = imageview;
+    }
+
+    @Nullable
+    @Override
+    public ActionBar getActionBar() {
+        return super.getActionBar();
     }
 }
 
